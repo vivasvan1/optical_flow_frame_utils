@@ -23,12 +23,12 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["reader"],
+    packages=["optical_flow_frame_utils"],
     include_package_data=True,
-    install_requires=["feedparser", "html2text"],
+    install_requires=["Pillow", "numpy", 'opencv-python'],
     entry_points={
         "console_scripts": [
-            "realpython=reader.__main__:main",
+            "optical_flow_frame_utils=optical_flow_frame_utils.__main__:main",
         ]
     },
 )
