@@ -6,9 +6,9 @@ Thank you so much.
 
 I am simply uploading as a python package for easier use for visualizing for my IPython.
 
-Installation:
+## Installation:
 pip3 install optical-flow-frame-utils
 
-Usage:
+## Usage:
 from optical_flow_frame_utils import frame_utils
 frame_utils.readFlow('/path/to/flow_file.flo')
